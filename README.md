@@ -14,10 +14,10 @@
   limitations under the License.
 -->
 
-```
+
 This repo has 2 corrections form https://github.com/AyogoHealth/cordova-plugin-oauth/compare/main...ianrobertsFF:cordova-plugin-oauth:master concerning Android plugin
 
-```
+
 cordova-plugin-oauth
 ====================
 
