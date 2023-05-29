@@ -13,10 +13,15 @@
   See the License for the specific language governing permissions and
   limitations under the License.
 -->
-
-
-This repo has 2 corrections form https://github.com/AyogoHealth/cordova-plugin-oauth/compare/main...ianrobertsFF:cordova-plugin-oauth:master concerning Android plugin
-
+# Why this fork ?
+* Original plugin https://github.com/AyogoHealth/cordova-plugin-oauth :
+    * works for create browser tab compliant with OAuth
+    * doesn't work for me for redirect OAuth provider response to the app (either on Android or iOS)
+* Solution :
+    * use this repo which has 1 correction from https://github.com/AyogoHealth/cordova-plugin-oauth/compare/main...ianrobertsFF:cordova-plugin-oauth:master concerning Android plugin (for managing browser tab)
+    * AND use https://github.com/EddyVerbruggen/Custom-URL-scheme (for managing redirection)
+* Cordova environnement : cordova 12.0.0 / lib 10.1.0 / android 10.1.2 / ios 6.1.1
+***
 
 cordova-plugin-oauth
 ====================
